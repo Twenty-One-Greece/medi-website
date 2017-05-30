@@ -1,0 +1,21 @@
+<div class="container view">
+    <a href="#/new" class="btn btn-primary">Add New</a>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Year</th>
+                <th>Active</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="ad in ads">
+                <td ng-click="selectAd(ad)">{{ad.title}}</td>
+                <td>{{ad.category}}</td>
+                <td>{{ad.year}}</td>
+                <td>{{ad.active}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

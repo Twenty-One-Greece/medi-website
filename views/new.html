@@ -1,0 +1,97 @@
+<form class="container view" ng-submit='handleSubmit(ad)' ng-if="!submited">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="form-group col-md-12">
+            <label>Title</label>
+            <input type="text" class="form-control" ng-model="ad.title" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Κατηγορία</label>
+            <select class="form-control" ng-model="ad.category">
+                <option>Υπέρηχοι</option>
+                <option>Καρδιογράφοι</option>
+                <option>Τέστ κοπώσεως</option>
+                <option>Monitors</option>
+                <option>Σπιρόμετρα</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Τιμή</label>
+            <input type="text" class="form-control" ng-model="ad.price" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Παροχή Ρεύματος</label>
+            <select class="form-control" ng-model="ad.powerSuply">
+                <option>Καλώδιο</option>
+                <option>Μπαταρία</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Κατάσταση Μηχανήματος</label>
+            <select class="form-control" ng-model="ad.state">
+                <option>Μεταχειρισμένο</option>
+                <option>Νέο</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Λυχνίες</label>
+            <select class="form-control" ng-model="ad.lamps">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Κεφαλές</label>
+            <select class="form-control" ng-model="ad.heads">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Marking</label>
+            <input type="text" class="form-control" ng-model="ad.marking" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Κατασκευαστής</label>
+            <input type="text" class="form-control" ng-model="ad.brand" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Έτος Κατασκευής</label>
+            <input type="text" class="form-control" ng-model="ad.year" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Έτος πρώτης χρήσης</label>
+            <input type="text" class="form-control" ng-model="ad.yearOfUse" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Τηλέφωνο επικοινωνίας</label>
+            <input type="text" class="form-control" ng-model="ad.year" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Email επικοινωνίας</label>
+            <input type="text" class="form-control" ng-model="ad.year" required>
+        </div>
+        <div class="form-group col-md-12">
+            <label>Περιγραφή</label>
+            <textarea type="text" class="form-control" ng-model="ad.description" required></textarea>
+        </div>
+
+
+        <div class="btn btn-primary btn-upload" upload-button url="/upload" on-success="onSuccess(response)">Upload</div>
+        <button type="submit" class="btn btn-primary col-md-6 col-md-offset-3">Submit</button>
+
+    </div>
+</form>

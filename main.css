@@ -1,0 +1,498 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+.jumbotron {
+    text-align: center !important;
+    background-image: url("http://www.ippocratis.gr/sites/default/files/slide3.jpg");
+    min-height: 600px;
+}
+
+.logo {
+    max-width: 250px
+}
+
+.jumbotron h1,
+.jumbotron p {
+    margin-top: 150px;
+    color: white !important;
+}
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px !important;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #383939;
+}
+
+.footer h4 {
+    color: white
+}
+
+.footer div p {
+    color: #aeaeae;
+}
+
+.seperator {
+    margin-bottom: 150px;
+}
+
+.machines {
+    text-align: center
+}
+
+.table-index {
+    text-align: center
+}
+
+.pre-listing {
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.item {
+    width: 100%;
+    height: 20px;
+}
+
+
+/* NAVIGATION BAR */
+
+nav.navbar.navbar-default {
+    /*position: absolute;
+    width: 100%;
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid grey;*/
+}
+
+.jumbotron-main-header {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*.navbar-default .navbar-nav>li>a {
+    color: white;
+}*/
+
+.search-form-btn {
+    margin-top: 35px;
+}
+
+
+/* SEARCH FORM */
+
+
+/*.container.form-container {
+    position: absolute;
+    top: 728px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    padding: 30px 30px;
+}
+.search-col{
+    border-right: 1px solid black;
+}*/
+
+
+/*.container.form-container {
+    background: rgba(255, 255, 255, 0.58);
+    padding: 30px 15px;
+}*/
+
+select {
+    background: transparent;
+    border-color: white;
+    height: 50px;
+}
+
+h4.form-header {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.search-form-btn {
+    height: 50px;
+    width: 100%;
+}
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+video#bgvid {
+    background: url(//demosthenes.info/assets/images/polina.jpg) no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    width: 100%;
+    height: auto;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.44);
+    padding: 30px 15px;
+    z-index: 1;
+}
+
+.ipo {
+    position: relative;
+}
+
+.border-col {
+    border-right: 1px solid #eaeaea;
+}
+
+td {
+    width: 49%;
+    /* border: 1px solid black; */
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #eaeaea;
+    height: 50px;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+h3.main-page-h3 {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.two-buttons {
+    text-align: center;
+}
+
+.two-button-display {
+    background: transparent;
+    color: black;
+    border-color: #b5b5b5;
+}
+
+ul.zertifikat-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.white-box {
+    background: #c3c3c3;
+    padding: 20px 25px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.report-box {
+    margin-top: 15px;
+}
+
+img.report-box-img {
+    /* display: block; */
+    position: absolute;
+}
+
+p.report-box-text {
+    padding: 15px 90px;
+}
+
+h2.main-page-h2 {
+    margin-top: 0px;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h3.main-page-h3.mph3-class2 {
+    padding-bottom: 10px;
+}
+
+img.img-responsive.ypo-foto-zertifikat {
+    /* text-align: center; */
+    margin: 0 65px;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.col-md-3 {
+    margin-bottom: 20px;
+}
+
+.each-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.each-item:hover .cap2,
+.each-item:hover .cap1 {
+    left: 0px;
+}
+
+.cap1 {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0px;
+    left: -100%;
+    padding: 10px;
+    transition: all .5s;
+}
+
+.cap2 {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: rgba(0, 178, 255, 0.5);
+    bottom: 0px;
+    left: 100%;
+    padding: 10px;
+    transition: all .5s;
+}
+
+.listing-description {
+    border: 1px solid #eaeaea;
+    border-top: none;
+}
+
+.port-image {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+}
+
+.each-item {
+    margin-bottom: 30px;
+}
+
+ul.filter-ul {
+    list-style: none;
+    padding: 0;
+}
+
+input#checkBox {
+    margin-right: 10px;
+}
+
+.listing-price {
+    position: absolute;
+    /*background: rgba(0, 0, 0, 0.34);*/
+    top: 209px;
+    width: 100%;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 200;
+}
+
+p.listing-description-p {
+    padding: 10px 25px;
+    font-weight: 300;
+}
+
+.on-sale-tag {
+    position: absolute;
+    top: 179px;
+    left: 0px;
+    background: #11abb1;
+    color: white;
+    /* border-radius: 4px; */
+    padding: 5px 15px;
+    /* line-height: 24px; */
+}
+
+p.on-salte-tag-p {
+    margin: 0;
+}
+
+.listing-price {
+    /* opacity: 0.3; */
+    background: -moz-linear-gradient(top, rgba(119, 119, 119, 0.27) 0%, rgba(119, 119, 119, 0.27) 100%), url(../images/slider/5.jpeg) no-repeat 0 0, url(../images/slider/5.jpeg) no-repeat 0 0;
+    background: -moz-linear-gradient(top, rgba(119, 119, 119, 0.27) 0%, rgba(119, 119, 119, 0.27) 100%), url(../images/slider/5.jpeg) no-repeat 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(119, 119, 119, 0.27)), color-stop(100%, rgba(255ÃŸ, 255ÃŸ, 255ÃŸ, 0.3))), url(../images/slider/5.jpeg) no-repeat 0 0;
+    background: -webkit-linear-gradient(top, rgba(119, 119, 119, 0.27) 0%, rgba(119, 119, 119, 0.27) 100%), url(../images/slider/5.jpeg) repeat 0 0;
+    background: -o-linear-gradient(top, rgba(119, 119, 119, 0.27) 0%, rgba(119, 119, 119, 0.27) 100%), url(../images/slider/5.jpeg) no-repeat 0 0;
+    background: -ms-linear-gradient(top, rgba(119, 119, 119, 0.27) 0%, rgba(119, 119, 119, 0.27) 100%), url(../images/slider/5.jpeg) no-repeat 0 0;
+    background: linear-gradient(to bottom, rgba(119, 119, 119, 0.27) 0%, rgba(119, 119, 119, 0.27) 100%), url(../images/slider/5.jpeg) no-repeat 0 0;
+}
+
+.listing-price-p {
+    color: black;
+}
+
+.title-in-description {
+    padding: 0 25px;
+    font-weight: 400;
+}
+
+input#checkBox {
+    width: 14px;
+    height: 14px;
+}
+
+li.filter-button {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.filter-heading {
+    font-size: 16px;
+}
+
+.filters {
+    margin-top: 45px;
+}
+
+.filter-hr {
+    border-top: 1px solid #d8d8d8;
+}
+
+
+/* PRODUCT PAGE */
+
+.product-container {
+    padding-top: 35px;
+}
+
+img.top-flaticons {
+    height: 46px;
+    width: 46px;
+}
+
+.icon-col {
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    height: 70vh;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 70vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 214px;
+}
+
+.sidebar-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+h3.contact-form-h3 {
+    text-align: center;
+}
+
+.form-container {
+    background: whitesmoke;
+    padding: 15px 15px;
+    margin-top: 40px;
+}
+
+input.btn.btn-success.btn-send.axbutton {
+    width: 100%;
+}
+
+input#form_name,
+input#form_lastname,
+input#form_email,
+input#form_phone {
+    height: 50px;
+    width: 66%;
+    float: right;
+}
+
+label {
+    width: 25%;
+    line-height: 45px;
+}
+
+
+/*.form-col {
+    margin-bottom: 15px;
+}*/
+
+img.img-circle.litol-img {
+    height: 53px;
+}
+
+.item.active {
+    height: 100%;
+    width: 100%;
+}
+
+img.slider-img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.view {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+label {
+    width: 100% !important;
+}
